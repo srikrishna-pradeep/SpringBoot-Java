@@ -1,0 +1,26 @@
+group queries;
+
+select()::=<<
+select * from student
+>>
+
+selectById()::<<
+select * from student
+where id=:id
+>>
+
+insert()::=<<
+insert into student(id, firstName , lastName, department)
+values(:id, :firstName , :lastName, :department)
+>>
+
+update()::=<<
+update student
+set firstName=:firstName, department=:department, lastName=:lastName
+where id=:id
+>>
+
+delete()::=<<
+delete from student
+where id=:id
+>>

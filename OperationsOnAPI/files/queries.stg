@@ -1,0 +1,22 @@
+group queries;
+
+select()::=<<
+select * from files
+>>
+
+selectById()::=<<
+select * from files
+where id=:id
+>>
+
+
+insert()::=<<
+insert into files(fileName , fileType, data)
+values(:fileName , :fileType, :data)
+>>
+
+
+delete()::=<<
+delete from files
+where id=:id
+>>

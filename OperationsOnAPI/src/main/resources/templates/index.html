@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8" http-equiv="Content-Type" content="text/html">
+    <title>Main Page</title>
+</head>
+<body>
+<h1>Welcome to Index Page</h1>
+<div>
+    <h3>Upload Files</h3>
+    <form id="uploadFiles" name="uploadFiles" method="post" th:action="@{/upload}",
+          enctype="multipart/form-data">
+        <input type="file" name = "files" multiple required/>
+        <button type="submit" >Upload</button>
+    </form>
+</div>
+
+<div>
+    <h3>List of Documents</h3>
+    <table>
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Download Link</th>
+            <th>Delete</th>
+            <th>Copy Link</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each = "file: ${files}">
+            <td th:text = "${file.id}" />
+            <td th:text = "${file.fileName}" />
+            <td><a th:href = "@{'/download/'+ ${file.id}}">Download</a></td>
+            <td><a th:href = "@{'/delete/'+ ${file.id}}">Delete</a></td>
+            <td><a th:href = "@{'/create/'+ ${file.id}}">Copy </a></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

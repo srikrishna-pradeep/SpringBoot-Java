@@ -1,0 +1,465 @@
+[DEBUG] 2020-08-10 12:49:12.819 [main] ClasspathLoggingApplicationListener - Application started with classpath: [file:/C:/Program%20Files/Java/jdk1.8.0_251/jre/lib/charsets.jar, file:/C:/Program%20Files/Java/jdk1.8.0_251/jre/lib/deploy.jar, file:/C:/Program%20Files/Java/jdk1.8.0_251/jre/lib/ext/access-bridge-64.jar, file:/C:/Program%20Files/Java/jdk1.8.0_251/jre/lib/ext/cldrdata.jar, file:/C:/Program%20Files/Java/jdk1.8.0_251/jre/lib/ext/dnsns.jar, file:/C:/Program%20Files/Java/jdk1.8.0_251/jre/lib/ext/jaccess.jar, file:/C:/Program%20Files/Java/jdk1.8.0_251/jre/lib/ext/jfxrt.jar, file:/C:/Program%20Files/Java/jdk1.8.0_251/jre/lib/ext/localedata.jar, file:/C:/Program%20Files/Java/jdk1.8.0_251/jre/lib/ext/nashorn.jar, file:/C:/Program%20Files/Java/jdk1.8.0_251/jre/lib/ext/sunec.jar, file:/C:/Program%20Files/Java/jdk1.8.0_251/jre/lib/ext/sunjce_provider.jar, file:/C:/Program%20Files/Java/jdk1.8.0_251/jre/lib/ext/sunmscapi.jar, file:/C:/Program%20Files/Java/jdk1.8.0_251/jre/lib/ext/sunpkcs11.jar, file:/C:/Program%20Files/Java/jdk1.8.0_251/jre/lib/ext/zipfs.jar, file:/C:/Program%20Files/Java/jdk1.8.0_251/jre/lib/javaws.jar, file:/C:/Program%20Files/Java/jdk1.8.0_251/jre/lib/jce.jar, file:/C:/Program%20Files/Java/jdk1.8.0_251/jre/lib/jfr.jar, file:/C:/Program%20Files/Java/jdk1.8.0_251/jre/lib/jfxswt.jar, file:/C:/Program%20Files/Java/jdk1.8.0_251/jre/lib/jsse.jar, file:/C:/Program%20Files/Java/jdk1.8.0_251/jre/lib/management-agent.jar, file:/C:/Program%20Files/Java/jdk1.8.0_251/jre/lib/plugin.jar, file:/C:/Program%20Files/Java/jdk1.8.0_251/jre/lib/resources.jar, file:/C:/Program%20Files/Java/jdk1.8.0_251/jre/lib/rt.jar, file:/E:/Applications/Java/SpringPostgresDatabase/target/classes/, file:/C:/Users/srikr/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.3.1.RELEASE/spring-boot-starter-web-2.3.1.RELEASE.jar, file:/C:/Users/srikr/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.3.1.RELEASE/spring-boot-starter-json-2.3.1.RELEASE.jar, file:/C:/Users/srikr/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.jar, file:/C:/Users/srikr/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar, file:/C:/Users/srikr/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0.jar, file:/C:/Users/srikr/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.0/jackson-datatype-jdk8-2.11.0.jar, file:/C:/Users/srikr/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.0/jackson-datatype-jsr310-2.11.0.jar, file:/C:/Users/srikr/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.0/jackson-module-parameter-names-2.11.0.jar, file:/C:/Users/srikr/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.3.1.RELEASE/spring-boot-starter-tomcat-2.3.1.RELEASE.jar, file:/C:/Users/srikr/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.36/tomcat-embed-core-9.0.36.jar, file:/C:/Users/srikr/.m2/repository/org/glassfish/jakarta.el/3.0.3/jakarta.el-3.0.3.jar, file:/C:/Users/srikr/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.36/tomcat-embed-websocket-9.0.36.jar, file:/C:/Users/srikr/.m2/repository/org/springframework/spring-web/5.2.7.RELEASE/spring-web-5.2.7.RELEASE.jar, file:/C:/Users/srikr/.m2/repository/org/springframework/spring-beans/5.2.7.RELEASE/spring-beans-5.2.7.RELEASE.jar, file:/C:/Users/srikr/.m2/repository/org/springframework/spring-webmvc/5.2.7.RELEASE/spring-webmvc-5.2.7.RELEASE.jar, file:/C:/Users/srikr/.m2/repository/org/springframework/spring-aop/5.2.7.RELEASE/spring-aop-5.2.7.RELEASE.jar, file:/C:/Users/srikr/.m2/repository/org/springframework/spring-context/5.2.7.RELEASE/spring-context-5.2.7.RELEASE.jar, file:/C:/Users/srikr/.m2/repository/org/springframework/spring-expression/5.2.7.RELEASE/spring-expression-5.2.7.RELEASE.jar, file:/C:/Users/srikr/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar, file:/C:/Users/srikr/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar, file:/C:/Users/srikr/.m2/repository/org/springframework/spring-core/5.2.7.RELEASE/spring-core-5.2.7.RELEASE.jar, file:/C:/Users/srikr/.m2/repository/org/springframework/spring-jcl/5.2.7.RELEASE/spring-jcl-5.2.7.RELEASE.jar, file:/C:/Users/srikr/.m2/repository/org/springframework/boot/spring-boot-starter/2.3.1.RELEASE/spring-boot-starter-2.3.1.RELEASE.jar, file:/C:/Users/srikr/.m2/repository/org/springframework/boot/spring-boot/2.3.1.RELEASE/spring-boot-2.3.1.RELEASE.jar, file:/C:/Users/srikr/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.3.1.RELEASE/spring-boot-autoconfigure-2.3.1.RELEASE.jar, file:/C:/Users/srikr/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar, file:/C:/Users/srikr/.m2/repository/org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar, file:/C:/Users/srikr/.m2/repository/org/springframework/boot/spring-boot-starter-log4j2/2.3.1.RELEASE/spring-boot-starter-log4j2-2.3.1.RELEASE.jar, file:/C:/Users/srikr/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.13.3/log4j-slf4j-impl-2.13.3.jar, file:/C:/Users/srikr/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar, file:/C:/Users/srikr/.m2/repository/org/apache/logging/log4j/log4j-core/2.13.3/log4j-core-2.13.3.jar, file:/C:/Users/srikr/.m2/repository/org/apache/logging/log4j/log4j-jul/2.13.3/log4j-jul-2.13.3.jar, file:/C:/Users/srikr/.m2/repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.jar, file:/C:/Users/srikr/.m2/repository/org/springframework/boot/spring-boot-starter-data-jdbc/2.3.1.RELEASE/spring-boot-starter-data-jdbc-2.3.1.RELEASE.jar, file:/C:/Users/srikr/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.3.1.RELEASE/spring-boot-starter-jdbc-2.3.1.RELEASE.jar, file:/C:/Users/srikr/.m2/repository/com/zaxxer/HikariCP/3.4.5/HikariCP-3.4.5.jar, file:/C:/Users/srikr/.m2/repository/org/springframework/spring-jdbc/5.2.7.RELEASE/spring-jdbc-5.2.7.RELEASE.jar, file:/C:/Users/srikr/.m2/repository/org/springframework/data/spring-data-jdbc/2.0.1.RELEASE/spring-data-jdbc-2.0.1.RELEASE.jar, file:/C:/Users/srikr/.m2/repository/org/springframework/data/spring-data-relational/2.0.1.RELEASE/spring-data-relational-2.0.1.RELEASE.jar, file:/C:/Users/srikr/.m2/repository/org/springframework/data/spring-data-commons/2.3.1.RELEASE/spring-data-commons-2.3.1.RELEASE.jar, file:/C:/Users/srikr/.m2/repository/org/springframework/spring-tx/5.2.7.RELEASE/spring-tx-5.2.7.RELEASE.jar, file:/C:/Users/srikr/.m2/repository/org/antlr/ST4/4.3/ST4-4.3.jar, file:/C:/Users/srikr/.m2/repository/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar, file:/C:/Users/srikr/.m2/repository/org/postgresql/postgresql/42.2.14/postgresql-42.2.14.jar, file:/C:/Users/srikr/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar, file:/C:/Users/srikr/.m2/repository/junit/junit/4.13/junit-4.13.jar, file:/C:/Users/srikr/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar, file:/C:/Program%20Files/JetBrains/IntelliJ%20IDEA%20Community%20Edition%202020.1.2/lib/idea_rt.jar]
+[INFO ] 2020-08-10 12:49:13.080 [main] SpringPostgresDatabaseApplication - Starting SpringPostgresDatabaseApplication on DESKTOP-M11DFIP with PID 896 (E:\Applications\Java\SpringPostgresDatabase\target\classes started by srikr in E:\Applications\Java\SpringPostgresDatabase)
+[DEBUG] 2020-08-10 12:49:13.085 [main] SpringPostgresDatabaseApplication - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+[INFO ] 2020-08-10 12:49:13.086 [main] SpringPostgresDatabaseApplication - No active profile set, falling back to default profiles: default
+[DEBUG] 2020-08-10 12:49:13.087 [main] SpringApplication - Loading source class SpringPostgresDatabase.SpringPostgresDatabaseApplication
+[DEBUG] 2020-08-10 12:49:13.180 [main] ConfigFileApplicationListener - Loaded config file 'file:/E:/Applications/Java/SpringPostgresDatabase/target/classes/application.properties' (classpath:/application.properties)
+[DEBUG] 2020-08-10 12:49:13.182 [main] AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4d5650ae
+[DEBUG] 2020-08-10 12:49:13.210 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[DEBUG] 2020-08-10 12:49:13.227 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+[DEBUG] 2020-08-10 12:49:13.325 [main] ClassPathBeanDefinitionScanner - Identified candidate component class: file [E:\Applications\Java\SpringPostgresDatabase\target\classes\SpringPostgresDatabase\Dao\StudentDaoImplementation.class]
+[DEBUG] 2020-08-10 12:49:13.332 [main] ClassPathBeanDefinitionScanner - Identified candidate component class: file [E:\Applications\Java\SpringPostgresDatabase\target\classes\SpringPostgresDatabase\config\JPAConfig.class]
+[DEBUG] 2020-08-10 12:49:13.353 [main] ClassPathBeanDefinitionScanner - Identified candidate component class: file [E:\Applications\Java\SpringPostgresDatabase\target\classes\SpringPostgresDatabase\controller\StudentController.class]
+[DEBUG] 2020-08-10 12:49:13.356 [main] ClassPathBeanDefinitionScanner - Identified candidate component class: file [E:\Applications\Java\SpringPostgresDatabase\target\classes\SpringPostgresDatabase\service\StudentService.class]
+[INFO ] 2020-08-10 12:49:14.471 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[DEBUG] 2020-08-10 12:49:14.477 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+[DEBUG] 2020-08-10 12:49:14.488 [main] RepositoryConfigurationDelegate - Scanning for JDBC repositories in packages SpringPostgresDatabase.
+[INFO ] 2020-08-10 12:49:14.502 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 JDBC repository interfaces.
+[DEBUG] 2020-08-10 12:49:14.760 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+[DEBUG] 2020-08-10 12:49:14.765 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBeanDefinitionValidator'
+[DEBUG] 2020-08-10 12:49:15.008 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[DEBUG] 2020-08-10 12:49:15.010 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'preserveErrorControllerTargetClassPostProcessor'
+[DEBUG] 2020-08-10 12:49:15.012 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[DEBUG] 2020-08-10 12:49:15.012 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+[DEBUG] 2020-08-10 12:49:15.022 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[DEBUG] 2020-08-10 12:49:15.024 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[DEBUG] 2020-08-10 12:49:15.028 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+[DEBUG] 2020-08-10 12:49:15.029 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+[DEBUG] 2020-08-10 12:49:15.029 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
+[DEBUG] 2020-08-10 12:49:15.032 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSourceInitializerPostProcessor'
+[DEBUG] 2020-08-10 12:49:15.044 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'persistenceExceptionTranslationPostProcessor'
+[DEBUG] 2020-08-10 12:49:15.047 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'persistenceExceptionTranslationPostProcessor' via factory method to bean named 'environment'
+[DEBUG] 2020-08-10 12:49:15.061 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+[DEBUG] 2020-08-10 12:49:15.078 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'webServerFactoryCustomizerBeanPostProcessor'
+[DEBUG] 2020-08-10 12:49:15.078 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'errorPageRegistrarBeanPostProcessor'
+[DEBUG] 2020-08-10 12:49:15.079 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'projectingArgumentResolverBeanPostProcessor'
+[DEBUG] 2020-08-10 12:49:15.094 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[DEBUG] 2020-08-10 12:49:15.095 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+[DEBUG] 2020-08-10 12:49:15.104 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionAttributeSource'
+[DEBUG] 2020-08-10 12:49:15.108 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionInterceptor'
+[DEBUG] 2020-08-10 12:49:15.109 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'transactionInterceptor' via factory method to bean named 'transactionAttributeSource'
+[DEBUG] 2020-08-10 12:49:15.114 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionAttributeSource'
+[DEBUG] 2020-08-10 12:49:15.115 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionInterceptor'
+[DEBUG] 2020-08-10 12:49:15.122 [main] UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@64e92d61]
+[DEBUG] 2020-08-10 12:49:15.122 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'tomcatServletWebServerFactory'
+[DEBUG] 2020-08-10 12:49:15.122 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat'
+[DEBUG] 2020-08-10 12:49:15.156 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'websocketServletWebServerCustomizer'
+[DEBUG] 2020-08-10 12:49:15.157 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration'
+[DEBUG] 2020-08-10 12:49:15.158 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'servletWebServerFactoryCustomizer'
+[DEBUG] 2020-08-10 12:49:15.159 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration'
+[DEBUG] 2020-08-10 12:49:15.162 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[DEBUG] 2020-08-10 12:49:15.171 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+[DEBUG] 2020-08-10 12:49:15.187 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'servletWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[DEBUG] 2020-08-10 12:49:15.189 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'tomcatServletWebServerFactoryCustomizer'
+[DEBUG] 2020-08-10 12:49:15.190 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'tomcatServletWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[DEBUG] 2020-08-10 12:49:15.191 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'tomcatWebServerFactoryCustomizer'
+[DEBUG] 2020-08-10 12:49:15.191 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration'
+[DEBUG] 2020-08-10 12:49:15.193 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'environment'
+[DEBUG] 2020-08-10 12:49:15.194 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[DEBUG] 2020-08-10 12:49:15.196 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'localeCharsetMappingsCustomizer'
+[DEBUG] 2020-08-10 12:49:15.197 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration'
+[DEBUG] 2020-08-10 12:49:15.198 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration' via constructor to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[DEBUG] 2020-08-10 12:49:15.238 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'errorPageCustomizer'
+[DEBUG] 2020-08-10 12:49:15.239 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration'
+[DEBUG] 2020-08-10 12:49:15.239 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration' via constructor to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[DEBUG] 2020-08-10 12:49:15.241 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'dispatcherServletRegistration'
+[DEBUG] 2020-08-10 12:49:15.242 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration'
+[DEBUG] 2020-08-10 12:49:15.247 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'dispatcherServlet'
+[DEBUG] 2020-08-10 12:49:15.248 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration'
+[DEBUG] 2020-08-10 12:49:15.249 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+[DEBUG] 2020-08-10 12:49:15.263 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'dispatcherServlet' via factory method to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+[DEBUG] 2020-08-10 12:49:15.283 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'dispatcherServlet'
+[DEBUG] 2020-08-10 12:49:15.283 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+[DEBUG] 2020-08-10 12:49:15.287 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'multipartConfigElement'
+[DEBUG] 2020-08-10 12:49:15.287 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration'
+[DEBUG] 2020-08-10 12:49:15.288 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
+[DEBUG] 2020-08-10 12:49:15.298 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration' via constructor to bean named 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
+[DEBUG] 2020-08-10 12:49:15.311 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'errorPageCustomizer' via factory method to bean named 'dispatcherServletRegistration'
+[DEBUG] 2020-08-10 12:49:15.788 [main] TomcatServletWebServerFactory - Code archive: C:\Users\srikr\.m2\repository\org\springframework\boot\spring-boot\2.3.1.RELEASE\spring-boot-2.3.1.RELEASE.jar
+[DEBUG] 2020-08-10 12:49:15.788 [main] TomcatServletWebServerFactory - Code archive: C:\Users\srikr\.m2\repository\org\springframework\boot\spring-boot\2.3.1.RELEASE\spring-boot-2.3.1.RELEASE.jar
+[DEBUG] 2020-08-10 12:49:15.789 [main] TomcatServletWebServerFactory - None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+[INFO ] 2020-08-10 12:49:15.816 [main] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-08-10 12:49:15.826 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-08-10 12:49:15.827 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2020-08-10 12:49:15.827 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[INFO ] 2020-08-10 12:49:15.950 [main] [/] - Initializing Spring embedded WebApplicationContext
+[DEBUG] 2020-08-10 12:49:15.951 [main] ServletWebServerApplicationContext - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO ] 2020-08-10 12:49:15.951 [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2769 ms
+[DEBUG] 2020-08-10 12:49:15.958 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'requestContextFilter'
+[DEBUG] 2020-08-10 12:49:15.962 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'formContentFilter'
+[DEBUG] 2020-08-10 12:49:15.963 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration'
+[DEBUG] 2020-08-10 12:49:15.968 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'characterEncodingFilter'
+[DEBUG] 2020-08-10 12:49:15.976 [main] ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+[DEBUG] 2020-08-10 12:49:15.976 [main] ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+[DEBUG] 2020-08-10 12:49:16.005 [main] OrderedRequestContextFilter - Filter 'requestContextFilter' configured for use
+[DEBUG] 2020-08-10 12:49:16.006 [main] OrderedCharacterEncodingFilter - Filter 'characterEncodingFilter' configured for use
+[DEBUG] 2020-08-10 12:49:16.006 [main] OrderedFormContentFilter - Filter 'formContentFilter' configured for use
+[DEBUG] 2020-08-10 12:49:16.021 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'springPostgresDatabaseApplication'
+[DEBUG] 2020-08-10 12:49:16.022 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'studentDaoImplementation'
+[DEBUG] 2020-08-10 12:49:16.677 [main] AESDecrypt - pradeep
+[DEBUG] 2020-08-10 12:49:16.770 [main] HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+[DEBUG] 2020-08-10 12:49:16.908 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'JPAConfig'
+[DEBUG] 2020-08-10 12:49:16.911 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'studentController'
+[DEBUG] 2020-08-10 12:49:16.921 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'studentService'
+[DEBUG] 2020-08-10 12:49:16.926 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'getDataSource'
+[DEBUG] 2020-08-10 12:49:16.927 [main] AESDecrypt - pradeep
+[DEBUG] 2020-08-10 12:49:16.929 [main] HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+[DEBUG] 2020-08-10 12:49:16.938 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker'
+[DEBUG] 2020-08-10 12:49:16.945 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+[DEBUG] 2020-08-10 12:49:16.964 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' via constructor to bean named 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+[DEBUG] 2020-08-10 12:49:16.965 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' via constructor to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4d5650ae'
+[DEBUG] 2020-08-10 12:49:16.970 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration'
+[DEBUG] 2020-08-10 12:49:16.971 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration'
+[DEBUG] 2020-08-10 12:49:16.971 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata'
+[DEBUG] 2020-08-10 12:49:16.972 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration'
+[DEBUG] 2020-08-10 12:49:16.972 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration'
+[DEBUG] 2020-08-10 12:49:16.974 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'taskExecutorBuilder'
+[DEBUG] 2020-08-10 12:49:16.975 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties'
+[DEBUG] 2020-08-10 12:49:16.977 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'taskExecutorBuilder' via factory method to bean named 'spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties'
+[DEBUG] 2020-08-10 12:49:16.980 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration'
+[DEBUG] 2020-08-10 12:49:16.981 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'error'
+[DEBUG] 2020-08-10 12:49:16.983 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'beanNameViewResolver'
+[DEBUG] 2020-08-10 12:49:16.985 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration'
+[DEBUG] 2020-08-10 12:49:16.986 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties'
+[DEBUG] 2020-08-10 12:49:16.990 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration' via constructor to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4d5650ae'
+[DEBUG] 2020-08-10 12:49:16.991 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration' via constructor to bean named 'spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties'
+[DEBUG] 2020-08-10 12:49:16.991 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'conventionErrorViewResolver'
+[DEBUG] 2020-08-10 12:49:16.994 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'errorAttributes'
+[DEBUG] 2020-08-10 12:49:16.997 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'basicErrorController'
+[DEBUG] 2020-08-10 12:49:16.998 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'basicErrorController' via factory method to bean named 'errorAttributes'
+[DEBUG] 2020-08-10 12:49:17.003 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+[DEBUG] 2020-08-10 12:49:17.006 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties'
+[DEBUG] 2020-08-10 12:49:17.006 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@1acaf3d'
+[DEBUG] 2020-08-10 12:49:17.017 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter'
+[DEBUG] 2020-08-10 12:49:17.018 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties'
+[DEBUG] 2020-08-10 12:49:17.018 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+[DEBUG] 2020-08-10 12:49:17.018 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@1acaf3d'
+[DEBUG] 2020-08-10 12:49:17.020 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.data.web.config.SpringDataWebConfiguration'
+[DEBUG] 2020-08-10 12:49:17.023 [main] LocalVariableTableParameterNameDiscoverer - Cannot find '.class' file for class [class org.springframework.data.web.config.SpringDataWebConfiguration$$EnhancerBySpringCGLIB$$f22a9a4] - unable to determine constructor/method parameter names
+[DEBUG] 2020-08-10 12:49:17.024 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.data.web.config.SpringDataWebConfiguration' via constructor to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4d5650ae'
+[DEBUG] 2020-08-10 12:49:17.026 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'pageableCustomizer'
+[DEBUG] 2020-08-10 12:49:17.026 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration'
+[DEBUG] 2020-08-10 12:49:17.027 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.data.web-org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties'
+[DEBUG] 2020-08-10 12:49:17.029 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration' via constructor to bean named 'spring.data.web-org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties'
+[DEBUG] 2020-08-10 12:49:17.038 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'sortCustomizer'
+[DEBUG] 2020-08-10 12:49:17.041 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'requestMappingHandlerAdapter'
+[DEBUG] 2020-08-10 12:49:17.043 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+[DEBUG] 2020-08-10 12:49:17.049 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcConversionService'
+[DEBUG] 2020-08-10 12:49:17.085 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcValidator'
+[DEBUG] 2020-08-10 12:49:17.087 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcContentNegotiationManager'
+[DEBUG] 2020-08-10 12:49:17.087 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcConversionService'
+[DEBUG] 2020-08-10 12:49:17.087 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcValidator'
+[DEBUG] 2020-08-10 12:49:17.092 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcContentNegotiationManager'
+[DEBUG] 2020-08-10 12:49:17.092 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcConversionService'
+[DEBUG] 2020-08-10 12:49:17.092 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcValidator'
+[DEBUG] 2020-08-10 12:49:17.100 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'messageConverters'
+[DEBUG] 2020-08-10 12:49:17.100 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration'
+[DEBUG] 2020-08-10 12:49:17.104 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'stringHttpMessageConverter'
+[DEBUG] 2020-08-10 12:49:17.104 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration'
+[DEBUG] 2020-08-10 12:49:17.105 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'stringHttpMessageConverter' via factory method to bean named 'environment'
+[DEBUG] 2020-08-10 12:49:17.111 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'mappingJackson2HttpMessageConverter'
+[DEBUG] 2020-08-10 12:49:17.111 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration'
+[DEBUG] 2020-08-10 12:49:17.112 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'jacksonObjectMapper'
+[DEBUG] 2020-08-10 12:49:17.113 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration'
+[DEBUG] 2020-08-10 12:49:17.114 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration'
+[DEBUG] 2020-08-10 12:49:17.115 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'standardJacksonObjectMapperBuilderCustomizer'
+[DEBUG] 2020-08-10 12:49:17.115 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration'
+[DEBUG] 2020-08-10 12:49:17.116 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+[DEBUG] 2020-08-10 12:49:17.134 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'standardJacksonObjectMapperBuilderCustomizer' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4d5650ae'
+[DEBUG] 2020-08-10 12:49:17.135 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'standardJacksonObjectMapperBuilderCustomizer' via factory method to bean named 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+[DEBUG] 2020-08-10 12:49:17.136 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'jacksonObjectMapperBuilder' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4d5650ae'
+[DEBUG] 2020-08-10 12:49:17.136 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'jacksonObjectMapperBuilder' via factory method to bean named 'standardJacksonObjectMapperBuilderCustomizer'
+[DEBUG] 2020-08-10 12:49:17.138 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'parameterNamesModule'
+[DEBUG] 2020-08-10 12:49:17.139 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration'
+[DEBUG] 2020-08-10 12:49:17.145 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'jsonComponentModule'
+[DEBUG] 2020-08-10 12:49:17.145 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration'
+[DEBUG] 2020-08-10 12:49:17.158 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'jacksonGeoModule'
+[DEBUG] 2020-08-10 12:49:17.159 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.data.web.config.SpringDataJacksonConfiguration'
+[DEBUG] 2020-08-10 12:49:17.167 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'jacksonObjectMapper' via factory method to bean named 'jacksonObjectMapperBuilder'
+[DEBUG] 2020-08-10 12:49:17.194 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'mappingJackson2HttpMessageConverter' via factory method to bean named 'jacksonObjectMapper'
+[DEBUG] 2020-08-10 12:49:17.206 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'sortResolver'
+[DEBUG] 2020-08-10 12:49:17.239 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'pageableResolver'
+[DEBUG] 2020-08-10 12:49:17.245 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'applicationTaskExecutor'
+[DEBUG] 2020-08-10 12:49:17.246 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'applicationTaskExecutor' via factory method to bean named 'taskExecutorBuilder'
+[INFO ] 2020-08-10 12:49:17.251 [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[DEBUG] 2020-08-10 12:49:17.261 [main] RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[DEBUG] 2020-08-10 12:49:17.300 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'requestMappingHandlerMapping'
+[DEBUG] 2020-08-10 12:49:17.302 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcResourceUrlProvider'
+[DEBUG] 2020-08-10 12:49:17.305 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+[DEBUG] 2020-08-10 12:49:17.305 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcConversionService'
+[DEBUG] 2020-08-10 12:49:17.305 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+[DEBUG] 2020-08-10 12:49:17.307 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+[DEBUG] 2020-08-10 12:49:17.309 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcConversionService'
+[DEBUG] 2020-08-10 12:49:17.322 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+[DEBUG] 2020-08-10 12:49:17.392 [main] RequestMappingHandlerMapping - 6 mappings in 'requestMappingHandlerMapping'
+[DEBUG] 2020-08-10 12:49:17.394 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'welcomePageHandlerMapping'
+[DEBUG] 2020-08-10 12:49:17.394 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'welcomePageHandlerMapping' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4d5650ae'
+[DEBUG] 2020-08-10 12:49:17.395 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'welcomePageHandlerMapping' via factory method to bean named 'mvcConversionService'
+[DEBUG] 2020-08-10 12:49:17.395 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'welcomePageHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+[DEBUG] 2020-08-10 12:49:17.402 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcPathMatcher'
+[DEBUG] 2020-08-10 12:49:17.404 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcUrlPathHelper'
+[DEBUG] 2020-08-10 12:49:17.406 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'viewControllerHandlerMapping'
+[DEBUG] 2020-08-10 12:49:17.409 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcPathMatcher'
+[DEBUG] 2020-08-10 12:49:17.409 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcUrlPathHelper'
+[DEBUG] 2020-08-10 12:49:17.409 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcConversionService'
+[DEBUG] 2020-08-10 12:49:17.409 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+[DEBUG] 2020-08-10 12:49:17.410 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'beanNameHandlerMapping'
+[DEBUG] 2020-08-10 12:49:17.412 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcConversionService'
+[DEBUG] 2020-08-10 12:49:17.412 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+[DEBUG] 2020-08-10 12:49:17.416 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'routerFunctionMapping'
+[DEBUG] 2020-08-10 12:49:17.417 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcConversionService'
+[DEBUG] 2020-08-10 12:49:17.418 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcResourceUrlProvider'
+[DEBUG] 2020-08-10 12:49:17.421 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'resourceHandlerMapping'
+[DEBUG] 2020-08-10 12:49:17.423 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcUrlPathHelper'
+[DEBUG] 2020-08-10 12:49:17.424 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcPathMatcher'
+[DEBUG] 2020-08-10 12:49:17.424 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+[DEBUG] 2020-08-10 12:49:17.424 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcConversionService'
+[DEBUG] 2020-08-10 12:49:17.424 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+[DEBUG] 2020-08-10 12:49:17.438 [main] SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[DEBUG] 2020-08-10 12:49:17.439 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'defaultServletHandlerMapping'
+[DEBUG] 2020-08-10 12:49:17.440 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'handlerFunctionAdapter'
+[DEBUG] 2020-08-10 12:49:17.442 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+[DEBUG] 2020-08-10 12:49:17.443 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'mvcConversionService'
+[DEBUG] 2020-08-10 12:49:17.443 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'requestMappingHandlerAdapter'
+[DEBUG] 2020-08-10 12:49:17.446 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'httpRequestHandlerAdapter'
+[DEBUG] 2020-08-10 12:49:17.447 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'simpleControllerHandlerAdapter'
+[DEBUG] 2020-08-10 12:49:17.448 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'handlerExceptionResolver'
+[DEBUG] 2020-08-10 12:49:17.449 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'handlerExceptionResolver' via factory method to bean named 'mvcContentNegotiationManager'
+[DEBUG] 2020-08-10 12:49:17.453 [main] ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[DEBUG] 2020-08-10 12:49:17.457 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcViewResolver'
+[DEBUG] 2020-08-10 12:49:17.458 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'mvcViewResolver' via factory method to bean named 'mvcContentNegotiationManager'
+[DEBUG] 2020-08-10 12:49:17.462 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'defaultViewResolver'
+[DEBUG] 2020-08-10 12:49:17.467 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'viewResolver'
+[DEBUG] 2020-08-10 12:49:17.469 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'viewResolver' via factory method to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@1acaf3d'
+[DEBUG] 2020-08-10 12:49:17.471 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration'
+[DEBUG] 2020-08-10 12:49:17.472 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@1acaf3d'
+[DEBUG] 2020-08-10 12:49:17.472 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration'
+[DEBUG] 2020-08-10 12:49:17.472 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration'
+[DEBUG] 2020-08-10 12:49:17.473 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'applicationAvailability'
+[DEBUG] 2020-08-10 12:49:17.475 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration'
+[DEBUG] 2020-08-10 12:49:17.476 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'hikariPoolDataSourceMetadataProvider'
+[DEBUG] 2020-08-10 12:49:17.477 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration'
+[DEBUG] 2020-08-10 12:49:17.478 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializationConfiguration'
+[DEBUG] 2020-08-10 12:49:17.478 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration'
+[DEBUG] 2020-08-10 12:49:17.478 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration'
+[DEBUG] 2020-08-10 12:49:17.479 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration'
+[DEBUG] 2020-08-10 12:49:17.479 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'lifecycleProcessor'
+[DEBUG] 2020-08-10 12:49:17.480 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties'
+[DEBUG] 2020-08-10 12:49:17.483 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'lifecycleProcessor' via factory method to bean named 'spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties'
+[DEBUG] 2020-08-10 12:49:17.485 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.dao.PersistenceExceptionTranslationAutoConfiguration'
+[DEBUG] 2020-08-10 12:49:17.486 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.JdbcTemplateConfiguration'
+[DEBUG] 2020-08-10 12:49:17.486 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'jdbcTemplate'
+[DEBUG] 2020-08-10 12:49:17.487 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.jdbc-org.springframework.boot.autoconfigure.jdbc.JdbcProperties'
+[DEBUG] 2020-08-10 12:49:17.489 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'jdbcTemplate' via factory method to bean named 'getDataSource'
+[DEBUG] 2020-08-10 12:49:17.491 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'jdbcTemplate' via factory method to bean named 'spring.jdbc-org.springframework.boot.autoconfigure.jdbc.JdbcProperties'
+[DEBUG] 2020-08-10 12:49:17.539 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.NamedParameterJdbcTemplateConfiguration'
+[DEBUG] 2020-08-10 12:49:17.540 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'namedParameterJdbcTemplate'
+[DEBUG] 2020-08-10 12:49:17.540 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'namedParameterJdbcTemplate' via factory method to bean named 'jdbcTemplate'
+[DEBUG] 2020-08-10 12:49:17.544 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration'
+[DEBUG] 2020-08-10 12:49:17.545 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$DataSourceTransactionManagerConfiguration'
+[DEBUG] 2020-08-10 12:49:17.546 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionManager'
+[DEBUG] 2020-08-10 12:49:17.546 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'transactionManager' via factory method to bean named 'getDataSource'
+[DEBUG] 2020-08-10 12:49:17.549 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'platformTransactionManagerCustomizers'
+[DEBUG] 2020-08-10 12:49:17.549 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration'
+[DEBUG] 2020-08-10 12:49:17.551 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties'
+[DEBUG] 2020-08-10 12:49:17.558 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration'
+[DEBUG] 2020-08-10 12:49:17.560 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.data.jdbc.JdbcRepositoriesAutoConfiguration$SpringBootJdbcConfiguration'
+[DEBUG] 2020-08-10 12:49:17.561 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'jdbcMappingContext'
+[DEBUG] 2020-08-10 12:49:17.565 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'jdbcCustomConversions'
+[DEBUG] 2020-08-10 12:49:17.626 [main] CustomConversions - Adding converter from class java.util.Date to class java.time.LocalDateTime as reading converter.
+[DEBUG] 2020-08-10 12:49:17.627 [main] CustomConversions - Adding converter from class java.time.LocalDateTime to class java.util.Date as writing converter.
+[DEBUG] 2020-08-10 12:49:17.627 [main] CustomConversions - Adding converter from class java.util.Date to class java.time.LocalDate as reading converter.
+[DEBUG] 2020-08-10 12:49:17.627 [main] CustomConversions - Adding converter from class java.time.LocalDate to class java.util.Date as writing converter.
+[DEBUG] 2020-08-10 12:49:17.627 [main] CustomConversions - Adding converter from class java.util.Date to class java.time.LocalTime as reading converter.
+[DEBUG] 2020-08-10 12:49:17.628 [main] CustomConversions - Adding converter from class java.time.LocalTime to class java.util.Date as writing converter.
+[DEBUG] 2020-08-10 12:49:17.628 [main] CustomConversions - Adding converter from class java.util.Date to class java.time.Instant as reading converter.
+[DEBUG] 2020-08-10 12:49:17.629 [main] CustomConversions - Adding converter from class java.time.Instant to class java.util.Date as writing converter.
+[DEBUG] 2020-08-10 12:49:17.629 [main] CustomConversions - Adding converter from class java.time.LocalDateTime to class java.time.Instant as reading converter.
+[DEBUG] 2020-08-10 12:49:17.629 [main] CustomConversions - Adding converter from class java.time.Instant to class java.time.LocalDateTime as reading converter.
+[DEBUG] 2020-08-10 12:49:17.629 [main] CustomConversions - Adding converter from class java.time.ZoneId to class java.lang.String as writing converter.
+[DEBUG] 2020-08-10 12:49:17.629 [main] CustomConversions - Adding converter from class java.lang.String to class java.time.ZoneId as reading converter.
+[DEBUG] 2020-08-10 12:49:17.630 [main] CustomConversions - Adding converter from class java.time.Duration to class java.lang.String as writing converter.
+[DEBUG] 2020-08-10 12:49:17.630 [main] CustomConversions - Adding converter from class java.lang.String to class java.time.Duration as reading converter.
+[DEBUG] 2020-08-10 12:49:17.630 [main] CustomConversions - Adding converter from class java.time.Period to class java.lang.String as writing converter.
+[DEBUG] 2020-08-10 12:49:17.630 [main] CustomConversions - Adding converter from class java.lang.String to class java.time.Period as reading converter.
+[DEBUG] 2020-08-10 12:49:17.630 [main] CustomConversions - Adding converter from class java.lang.String to class java.time.LocalDate as reading converter.
+[DEBUG] 2020-08-10 12:49:17.630 [main] CustomConversions - Adding converter from class java.lang.String to class java.time.LocalDateTime as reading converter.
+[DEBUG] 2020-08-10 12:49:17.630 [main] CustomConversions - Adding converter from class java.lang.String to class java.time.Instant as reading converter.
+[DEBUG] 2020-08-10 12:49:17.632 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'jdbcMappingContext' via factory method to bean named 'jdbcCustomConversions'
+[DEBUG] 2020-08-10 12:49:17.678 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'jdbcConverter'
+[DEBUG] 2020-08-10 12:49:17.686 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'jdbcDialect'
+[DEBUG] 2020-08-10 12:49:17.686 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'jdbcDialect' via factory method to bean named 'namedParameterJdbcTemplate'
+[DEBUG] 2020-08-10 12:49:17.695 [main] DataSourceUtils - Fetching JDBC Connection from DataSource
+[DEBUG] 2020-08-10 12:49:17.696 [main] HikariConfig - HikariPool-1 - configuration:
+[DEBUG] 2020-08-10 12:49:17.707 [main] HikariConfig - allowPoolSuspension.............false
+[DEBUG] 2020-08-10 12:49:17.707 [main] HikariConfig - autoCommit......................true
+[DEBUG] 2020-08-10 12:49:17.708 [main] HikariConfig - catalog.........................none
+[DEBUG] 2020-08-10 12:49:17.708 [main] HikariConfig - connectionInitSql...............none
+[DEBUG] 2020-08-10 12:49:17.708 [main] HikariConfig - connectionTestQuery.............none
+[DEBUG] 2020-08-10 12:49:17.708 [main] HikariConfig - connectionTimeout...............30000
+[DEBUG] 2020-08-10 12:49:17.708 [main] HikariConfig - dataSource......................none
+[DEBUG] 2020-08-10 12:49:17.708 [main] HikariConfig - dataSourceClassName.............none
+[DEBUG] 2020-08-10 12:49:17.708 [main] HikariConfig - dataSourceJNDI..................none
+[DEBUG] 2020-08-10 12:49:17.709 [main] HikariConfig - dataSourceProperties............{password=<masked>}
+[DEBUG] 2020-08-10 12:49:17.709 [main] HikariConfig - driverClassName................."org.postgresql.Driver"
+[DEBUG] 2020-08-10 12:49:17.709 [main] HikariConfig - exceptionOverrideClassName......none
+[DEBUG] 2020-08-10 12:49:17.709 [main] HikariConfig - healthCheckProperties...........{}
+[DEBUG] 2020-08-10 12:49:17.710 [main] HikariConfig - healthCheckRegistry.............none
+[DEBUG] 2020-08-10 12:49:17.710 [main] HikariConfig - idleTimeout.....................600000
+[DEBUG] 2020-08-10 12:49:17.710 [main] HikariConfig - initializationFailTimeout.......1
+[DEBUG] 2020-08-10 12:49:17.710 [main] HikariConfig - isolateInternalQueries..........false
+[DEBUG] 2020-08-10 12:49:17.710 [main] HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:5432/postgres
+[DEBUG] 2020-08-10 12:49:17.710 [main] HikariConfig - leakDetectionThreshold..........0
+[DEBUG] 2020-08-10 12:49:17.711 [main] HikariConfig - maxLifetime.....................1800000
+[DEBUG] 2020-08-10 12:49:17.711 [main] HikariConfig - maximumPoolSize.................10
+[DEBUG] 2020-08-10 12:49:17.711 [main] HikariConfig - metricRegistry..................none
+[DEBUG] 2020-08-10 12:49:17.711 [main] HikariConfig - metricsTrackerFactory...........none
+[DEBUG] 2020-08-10 12:49:17.711 [main] HikariConfig - minimumIdle.....................10
+[DEBUG] 2020-08-10 12:49:17.711 [main] HikariConfig - password........................<masked>
+[DEBUG] 2020-08-10 12:49:17.711 [main] HikariConfig - poolName........................"HikariPool-1"
+[DEBUG] 2020-08-10 12:49:17.712 [main] HikariConfig - readOnly........................false
+[DEBUG] 2020-08-10 12:49:17.712 [main] HikariConfig - registerMbeans..................false
+[DEBUG] 2020-08-10 12:49:17.712 [main] HikariConfig - scheduledExecutor...............none
+[DEBUG] 2020-08-10 12:49:17.712 [main] HikariConfig - schema..........................none
+[DEBUG] 2020-08-10 12:49:17.712 [main] HikariConfig - threadFactory...................internal
+[DEBUG] 2020-08-10 12:49:17.712 [main] HikariConfig - transactionIsolation............default
+[DEBUG] 2020-08-10 12:49:17.712 [main] HikariConfig - username........................"postgres"
+[DEBUG] 2020-08-10 12:49:17.712 [main] HikariConfig - validationTimeout...............5000
+[INFO ] 2020-08-10 12:49:17.713 [main] HikariDataSource - HikariPool-1 - Starting...
+[DEBUG] 2020-08-10 12:49:18.293 [main] HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2127e66e
+[INFO ] 2020-08-10 12:49:18.296 [main] HikariDataSource - HikariPool-1 - Start completed.
+[DEBUG] 2020-08-10 12:49:18.364 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'jdbcConverter' via factory method to bean named 'jdbcMappingContext'
+[DEBUG] 2020-08-10 12:49:18.364 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'jdbcConverter' via factory method to bean named 'namedParameterJdbcTemplate'
+[DEBUG] 2020-08-10 12:49:18.365 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'jdbcConverter' via factory method to bean named 'jdbcCustomConversions'
+[DEBUG] 2020-08-10 12:49:18.365 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'jdbcConverter' via factory method to bean named 'jdbcDialect'
+[DEBUG] 2020-08-10 12:49:18.396 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'jdbcAggregateTemplate'
+[DEBUG] 2020-08-10 12:49:18.397 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataAccessStrategyBean'
+[DEBUG] 2020-08-10 12:49:18.398 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'dataAccessStrategyBean' via factory method to bean named 'namedParameterJdbcTemplate'
+[DEBUG] 2020-08-10 12:49:18.398 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'dataAccessStrategyBean' via factory method to bean named 'jdbcConverter'
+[DEBUG] 2020-08-10 12:49:18.398 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'dataAccessStrategyBean' via factory method to bean named 'jdbcMappingContext'
+[DEBUG] 2020-08-10 12:49:18.398 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'dataAccessStrategyBean' via factory method to bean named 'jdbcDialect'
+[DEBUG] 2020-08-10 12:49:18.409 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+[DEBUG] 2020-08-10 12:49:18.417 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'jdbcAggregateTemplate' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4d5650ae'
+[DEBUG] 2020-08-10 12:49:18.418 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'jdbcAggregateTemplate' via factory method to bean named 'jdbcMappingContext'
+[DEBUG] 2020-08-10 12:49:18.418 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'jdbcAggregateTemplate' via factory method to bean named 'jdbcConverter'
+[DEBUG] 2020-08-10 12:49:18.418 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'jdbcAggregateTemplate' via factory method to bean named 'dataAccessStrategyBean'
+[DEBUG] 2020-08-10 12:49:18.432 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.data.jdbc.JdbcRepositoriesAutoConfiguration$JdbcRepositoriesConfiguration'
+[DEBUG] 2020-08-10 12:49:18.432 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.data.jdbc.JdbcRepositoriesAutoConfiguration'
+[DEBUG] 2020-08-10 12:49:18.433 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration'
+[DEBUG] 2020-08-10 12:49:18.434 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.data.web.config.ProjectingArgumentResolverRegistrar'
+[DEBUG] 2020-08-10 12:49:18.436 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration'
+[DEBUG] 2020-08-10 12:49:18.443 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties'
+[DEBUG] 2020-08-10 12:49:18.448 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration' via constructor to bean named 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties'
+[DEBUG] 2020-08-10 12:49:18.454 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration'
+[DEBUG] 2020-08-10 12:49:18.455 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.security.oauth2.resourceserver-org.springframework.boot.autoconfigure.security.oauth2.resource.OAuth2ResourceServerProperties'
+[DEBUG] 2020-08-10 12:49:18.456 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration'
+[DEBUG] 2020-08-10 12:49:18.458 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'taskSchedulerBuilder'
+[DEBUG] 2020-08-10 12:49:18.459 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties'
+[DEBUG] 2020-08-10 12:49:18.462 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'taskSchedulerBuilder' via factory method to bean named 'spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties'
+[DEBUG] 2020-08-10 12:49:18.464 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration$CglibAutoProxyConfiguration'
+[DEBUG] 2020-08-10 12:49:18.465 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration'
+[DEBUG] 2020-08-10 12:49:18.466 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$TransactionTemplateConfiguration'
+[DEBUG] 2020-08-10 12:49:18.466 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionTemplate'
+[DEBUG] 2020-08-10 12:49:18.467 [main] DefaultListableBeanFactory - Autowiring by type from bean name 'transactionTemplate' via factory method to bean named 'transactionManager'
+[DEBUG] 2020-08-10 12:49:18.469 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration'
+[DEBUG] 2020-08-10 12:49:18.470 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration'
+[DEBUG] 2020-08-10 12:49:18.470 [main] DefaultListableBeanFactory - Creating shared instance of singleton bean 'multipartResolver'
+[DEBUG] 2020-08-10 12:49:18.486 [HikariPool-1 connection adder] HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5ae28fe9
+[DEBUG] 2020-08-10 12:49:18.488 [main] DefaultLifecycleProcessor - Starting beans in phase 2147483646
+[INFO ] 2020-08-10 12:49:18.490 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-08-10 12:49:18.524 [main] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[DEBUG] 2020-08-10 12:49:18.526 [main] DefaultLifecycleProcessor - Successfully started bean 'webServerStartStop'
+[DEBUG] 2020-08-10 12:49:18.526 [main] DefaultLifecycleProcessor - Starting beans in phase 2147483647
+[DEBUG] 2020-08-10 12:49:18.526 [main] DefaultLifecycleProcessor - Successfully started bean 'webServerGracefulShutdown'
+[INFO ] 2020-08-10 12:49:18.545 [main] SpringPostgresDatabaseApplication - Started SpringPostgresDatabaseApplication in 6.223 seconds (JVM running for 8.383)
+[DEBUG] 2020-08-10 12:49:18.563 [HikariPool-1 connection adder] HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@54256ac5
+[DEBUG] 2020-08-10 12:49:18.603 [HikariPool-1 connection adder] HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@501ae499
+[DEBUG] 2020-08-10 12:49:18.639 [HikariPool-1 connection adder] HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@151860fe
+[DEBUG] 2020-08-10 12:49:18.677 [HikariPool-1 connection adder] HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5b4b3873
+[DEBUG] 2020-08-10 12:49:18.714 [HikariPool-1 connection adder] HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2447129d
+[DEBUG] 2020-08-10 12:49:18.754 [HikariPool-1 connection adder] HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@23fe14a0
+[DEBUG] 2020-08-10 12:49:18.797 [HikariPool-1 connection adder] HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@75379fb1
+[DEBUG] 2020-08-10 12:49:18.945 [HikariPool-1 connection adder] HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@773da9c4
+[DEBUG] 2020-08-10 12:49:18.946 [HikariPool-1 connection adder] HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 12:49:48.418 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 12:49:48.419 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 12:50:18.422 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 12:50:18.422 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 12:50:48.428 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 12:50:48.429 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 12:51:18.440 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 12:51:18.441 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 12:51:48.448 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 12:51:48.449 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 12:52:18.452 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 12:52:18.453 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 12:52:48.458 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 12:52:48.459 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 12:53:18.470 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 12:53:18.470 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 12:53:48.486 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 12:53:48.486 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 12:54:18.494 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 12:54:18.495 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 12:54:48.508 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 12:54:48.509 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 12:55:18.523 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 12:55:18.524 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 12:55:48.528 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 12:55:48.529 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 12:56:18.536 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 12:56:18.536 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 12:56:48.544 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 12:56:48.544 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 12:57:18.554 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 12:57:18.555 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 12:57:48.557 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 12:57:48.558 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 12:58:18.566 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 12:58:18.567 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 12:58:48.570 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 12:58:48.570 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 12:59:18.578 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 12:59:18.579 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 12:59:48.592 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 12:59:48.593 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 13:00:18.600 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 13:00:18.602 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 13:00:48.611 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 13:00:48.611 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 13:01:18.618 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 13:01:18.618 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 13:01:48.632 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 13:01:48.632 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 13:02:18.636 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 13:02:18.637 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 13:02:48.650 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 13:02:48.651 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 13:03:18.660 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 13:03:18.661 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 13:03:48.675 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 13:03:48.675 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 13:04:18.797 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 13:04:18.797 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 13:04:48.800 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 13:04:48.800 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 13:05:18.811 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 13:05:18.811 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 13:05:48.823 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 13:05:48.824 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 13:06:18.829 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 13:06:18.830 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 13:06:48.843 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 13:06:48.843 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 13:07:18.852 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 13:07:18.853 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 13:07:48.866 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 13:07:48.867 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 13:08:18.878 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 13:08:18.879 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 13:08:48.883 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 13:08:48.883 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 13:09:18.883 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 13:09:18.883 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[DEBUG] 2020-08-10 13:09:48.886 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[DEBUG] 2020-08-10 13:09:48.886 [HikariPool-1 housekeeper] HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
