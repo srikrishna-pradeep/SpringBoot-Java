@@ -1,6 +1,7 @@
 package AES;
 
 
+import Config.SpringConfig;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.json.simple.JSONObject;
@@ -16,24 +17,24 @@ public class AESEncrypt {
     public static void main(String[] args) {
         Logger logger = LogManager.getLogger(AESEncrypt.class);
         AESUtil aesUtil = new AESUtil();
-        JSONObject aesObject = new JSONObject();
         try{
-            aesObject.put("driverClass", "org.postgresql.Driver");
-            aesObject.put("url", "jdbc:postgresql://localhost:5432/postgres");
-            aesObject.put("username", "postgres");
+
             JSONObject jsonObject = (JSONObject) new JSONParser().parse(
-                    new FileReader("files/password.json"));
-            String password = (String) jsonObject.get("password");
-            logger.debug(password);
+                    new FileReader(args[0]));
+
+            JSONObject connectionObject = (JSONObject) new JSONParser().parse(
+                    new FileReader(args[1]));
+
             String key  = aesUtil.getSecretAESKeyAsString();
-            logger.debug(key);
-            aesObject.put("key", key);
-            String encrypted = aesUtil.encryptTextUsingAES(password, key);
-            logger.debug(encrypted);
-            aesObject.put("password", encrypted);
-            FileWriter fileWriter = new FileWriter("files/aes_connection.json");
-            fileWriter.write(aesObject.toJSONString());
+            String encrypted_password = aesUtil.encryptTextUsingAES((String) jsonObject.get(SpringConfig.PASSWORD), key);
+
+            connectionObject.put(SpringConfig.KEY, key);
+            connectionObject.put(SpringConfig.PASSWORD, encrypted_password);
+
+            FileWriter fileWriter = new FileWriter(args[1]);
+            fileWriter.write(connectionObject.toJSONString());
             fileWriter.close();
+
         } catch (ParseException e) {
             logger.error(e.getMessage());
         } catch (FileNotFoundException e) {

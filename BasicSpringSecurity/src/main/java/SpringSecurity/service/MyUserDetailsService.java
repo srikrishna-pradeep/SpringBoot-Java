@@ -1,8 +1,8 @@
 package SpringSecurity.service;
 
 
-import AES.AESDecrypt;
 import AES.AESUtil;
+import Config.SpringConfig;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.json.simple.JSONObject;
@@ -28,16 +28,13 @@ public class MyUserDetailsService implements UserDetailsService {
         String password="";
         try {
             JSONObject jsonObject = (JSONObject) new JSONParser().parse(
-                    new FileReader("files/aes_connection.json"));
-            username = (String) jsonObject.get("username");
-            String key = (String) jsonObject.get("key");
-            String decrypt = (String) jsonObject.get("password");
-            password = new AESUtil().decryptTextUsingAES(decrypt, key);
+                    new FileReader(SpringConfig.CREDENTIALS_FILE_PATH));
+            username = (String) jsonObject.get(SpringConfig.USERNAME);
+            String key = (String) jsonObject.get(SpringConfig.KEY);
+            password = new AESUtil().decryptTextUsingAES((String) jsonObject.get(SpringConfig.PASSWORD), key);
         } catch (IOException e) {
-//            e.printStackTrace();
             logger.error(e.getMessage());
         } catch (ParseException e) {
-//            e.printStackTrace();
             logger.error(e.getMessage());
         } catch (Exception e) {
             logger.error(e.getMessage());

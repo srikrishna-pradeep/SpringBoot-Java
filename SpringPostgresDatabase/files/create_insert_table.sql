@@ -1,0 +1,51 @@
+create table student(
+id int primary key,
+firstName varchar(20) not null,
+lastName varchar(20) not null,
+department varchar(20) not null
+);
+
+INSERT INTO student 
+VALUES 
+(1,'Georgi','Facello','Marketing'),
+(2,'Bezalel','Simmel','Quality Management'),
+(3,'Parto','Bamford','Finance'),
+(4,'Chirstian','Koblick','Sales'),
+(5,'Kyoichi','Maliniak','Development'),
+(6,'Anneke','Preusig','Finance'),
+(7,'Tzvetan','Zielinski','Research'),
+(8,'Saniya','Kalloufi','Quality Management'),
+(9,'Sumant','Peac','Research'),
+(10,'Duangkaew','Piveteau','Sales'),
+(11,'Mary','Sluis','Production'),
+(12,'Patricio','Bridgland','Quality Management'),
+(13,'Eberhardt','Terkki','Customer Service'),
+(14,'Berni','Genin','Marketing'),
+(15,'Guoxiang','Nooteboom','Quality Management'),
+(16,'Kazuhito','Cappelletti','Finance'),
+(17,'Cristinel','Bouloucos','Production'),
+(18,'Kazuhide','Peha','Research'),
+(19,'Lillian','Haddadi','Sales'),
+(20,'Mayuko','Warwick','Production'),
+(21,'Ramzi','Erde','Sales'),
+(22,'Shahaf','Famili','Marketing'),
+(23,'Bojan','Montemayor','Research'),
+(24,'Suzette','Pettey','Marketing'),
+(25,'Prasadram','Heyers','Human Resources'),
+(26,'Yongqiao','Berztiss','Human Resources'),
+(27,'Divier','Reistad','Human Resources'),
+(28,'Domenick','Tempesti','Human Resources'),
+(29,'Otmar','Herbst','Finance'),
+(30,'Elvis','Demeyer','Development'),
+(31,'Karsten','Joslin','Marketing'),
+(32,'Jeong','Reistad','Development'),
+(33,'Arif','Merlo','Quality Management'),
+(34,'Bader','Swan', 'Human Resources'),
+(35,'Alain','Chappelet','Customer Service'),
+(36,'Adamantios','Portugali','Finance'),
+(37,'Pradeep','Makrucki', 'Customer Service'),
+(38,'Huan','Lortz','Research'),
+(39,'Alejandro','Brender','Production'),
+(40,'Weiyi','Meriste','Sales');
+
+

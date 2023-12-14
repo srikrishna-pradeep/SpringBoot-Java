@@ -1,0 +1,7 @@
+{
+  "password":"<<encrypted_password>>",
+  "driverClass":"<<database_driver>>",
+  "url":"<<database_connection_string>>",
+  "key":"<<encrypted_key>>",
+  "username":"<<database_username>>"
+}

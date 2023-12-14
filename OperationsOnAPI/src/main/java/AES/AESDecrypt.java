@@ -1,6 +1,7 @@
 package AES;
 
 
+import Config.SpringConfig;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.json.simple.JSONObject;
@@ -17,21 +18,19 @@ public class AESDecrypt {
     public Map<String, String> DataSourceList(){
         Logger logger = LogManager.getLogger(AESDecrypt.class);
         AESUtil aesUtil = new AESUtil();
-        Map<String, String> map = new HashMap<>();
+        Map<String, String> connectionMap = new HashMap<>();
         try{
             JSONObject jsonObject = (JSONObject) new JSONParser().parse(
-                    new FileReader("files/aes_connection.json"));
-            String driverClass = (String) jsonObject.get("driverClass");
-            String url = (String) jsonObject.get("url");
-            String username = (String) jsonObject.get("username");
-            String password = (String) jsonObject.get("password");
-            String key = (String) jsonObject.get("key");
-            String decrypted = aesUtil.decryptTextUsingAES(password, key);
-            logger.debug(decrypted);
-            map.put("url", url);
-            map.put("driverClass", driverClass);
-            map.put("username", username);
-            map.put("password",decrypted);
+                    new FileReader(SpringConfig.CONNECTION_FILE_PATH));
+
+            String decrypted_password = aesUtil.decryptTextUsingAES((String) jsonObject.get(SpringConfig.PASSWORD),
+                    (String) jsonObject.get(SpringConfig.KEY));
+
+            connectionMap.put(SpringConfig.DRIVER_CLASS, (String) jsonObject.get(SpringConfig.DRIVER_CLASS));
+            connectionMap.put(SpringConfig.URL, (String) jsonObject.get(SpringConfig.URL));
+            connectionMap.put(SpringConfig.USERNAME, (String) jsonObject.get(SpringConfig.USERNAME));
+            connectionMap.put(SpringConfig.PASSWORD, decrypted_password);
+
         } catch (ParseException e) {
             logger.error(e.getMessage());
         } catch (FileNotFoundException e) {
@@ -41,6 +40,6 @@ public class AESDecrypt {
         } catch (Exception e) {
             logger.error(e.getMessage());
         }
-        return map;
+        return connectionMap;
     }
 }

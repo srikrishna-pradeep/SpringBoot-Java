@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>MVCDemo</groupId>
-    <artifactId>com.modak.MVCDemo</artifactId>
+    <artifactId>MVCDemo</artifactId>
     <version>1.0-SNAPSHOT</version>
     <build>
         <plugins>

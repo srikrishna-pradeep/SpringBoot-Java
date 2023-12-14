@@ -1,0 +1,5 @@
+{
+  "password":"<<encrypted_password>>",
+  "key":"<<encryption_key>>",
+  "username":"<<username>>"
+}
